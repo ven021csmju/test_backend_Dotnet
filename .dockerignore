@@ -1,8 +1,0 @@
-**/.dockerignore
-**/.git
-**/.github
-**/.vs
-**/.vscode
-**/bin
-**/obj
-MyApi/TestApp
