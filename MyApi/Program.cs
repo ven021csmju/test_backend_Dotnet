@@ -23,4 +23,9 @@ app.MapGet("/hello", () =>
     return "Hello API";
 });
 
+app.MapGet("/products", async (AppDbContext db) =>
+{
+    return await db.Products.ToListAsync();
+});
+
 app.Run();
